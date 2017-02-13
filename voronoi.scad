@@ -6,7 +6,7 @@ function normalize(v) = v / (sqrt(v[0] * v[0] + v[1] * v[1]));
 //
 // The voronoi() function generates a 2D surface, which can be provided to
 // a) linear_extrude() to produce a 3D object
-// b) intersection() to restrict it to a a specified shape
+// b) intersection() to restrict it to a a specified shape -- see voronoi_polygon.scad
 //
 // Parameters:
 //   points (required) ... nuclei coordinates (array of [x, y] pairs)
