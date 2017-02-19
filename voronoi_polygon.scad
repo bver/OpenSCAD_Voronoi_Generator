@@ -5,8 +5,6 @@ use <voronoi.scad>
 
 //
 // The voronoi_polygon() function fills an arbitrary polygon with a Voronoi pattern.
-// Unfortunately, the bounding box has to be provided as a parameter since bboxing is not a trivial
-// OpenSCAD topic. Please see http://forum.openscad.org/Bounding-box-td20220.html
 //
 // Parameters:
 //   border (required) ... polygon to be filled by a Voronoi pattern (array of [x, y] pairs, no holes)
